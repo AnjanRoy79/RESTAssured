@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-05T14:49:11 IST" name="Default suite" finished-at="2025-09-05T14:49:27 IST" duration-ms="16260">
+    <groups>
+    </groups>
+    <test started-at="2025-09-05T14:49:11 IST" name="Default test" finished-at="2025-09-05T14:49:27 IST" duration-ms="16260">
+      <class name="com.TelecomProject.UserApiTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:11 IST" name="setup" finished-at="2025-09-05T14:49:11 IST" duration-ms="499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddNewUser()[pri:1, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:12 IST" name="AddNewUser" finished-at="2025-09-05T14:49:15 IST" duration-ms="3418" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddNewUser -->
+        <test-method signature="GetUserProfile()[pri:2, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:15 IST" name="GetUserProfile" finished-at="2025-09-05T14:49:16 IST" depends-on-methods="com.TelecomProject.UserApiTest.AddNewUser" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUserProfile -->
+        <test-method signature="UpdateUser()[pri:3, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:16 IST" name="UpdateUser" finished-at="2025-09-05T14:49:18 IST" depends-on-methods="com.TelecomProject.UserApiTest.AddNewUser" duration-ms="1353" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateUser -->
+        <test-method signature="LoginUser()[pri:4, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:18 IST" name="LoginUser" finished-at="2025-09-05T14:49:19 IST" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginUser -->
+        <test-method signature="AddContact()[pri:5, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:19 IST" name="AddContact" finished-at="2025-09-05T14:49:20 IST" depends-on-methods="com.TelecomProject.UserApiTest.LoginUser" duration-ms="1385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddContact -->
+        <test-method signature="GetContactList()[pri:6, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:20 IST" name="GetContactList" finished-at="2025-09-05T14:49:22 IST" depends-on-methods="com.TelecomProject.UserApiTest.AddContact" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetContactList -->
+        <test-method signature="testGetContact()[pri:7, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:22 IST" name="testGetContact" finished-at="2025-09-05T14:49:23 IST" depends-on-methods="com.TelecomProject.UserApiTest.AddContact" duration-ms="1298" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetContact -->
+        <test-method signature="UpdateContact()[pri:8, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:23 IST" name="UpdateContact" finished-at="2025-09-05T14:49:24 IST" depends-on-methods="com.TelecomProject.UserApiTest.AddContact" duration-ms="1279" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UpdateContact -->
+        <test-method signature="PatchContact()[pri:9, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:24 IST" name="PatchContact" finished-at="2025-09-05T14:49:26 IST" depends-on-methods="com.TelecomProject.UserApiTest.AddContact" duration-ms="1304" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PatchContact -->
+        <test-method signature="LogoutUser()[pri:10, instance:com.TelecomProject.UserApiTest@6a192cfe]" started-at="2025-09-05T14:49:26 IST" name="LogoutUser" finished-at="2025-09-05T14:49:27 IST" depends-on-methods="com.TelecomProject.UserApiTest.LoginUser" duration-ms="1283" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogoutUser -->
+      </class> <!-- com.TelecomProject.UserApiTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
