@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.RestAPINonBDD.JsonValidationTest">
+      <class name="com.RestAPINonBDD.SecondAPITestWithValidation">
         <methods>
-          <include name="testJsonBody"/>
-          <include name="testListOfUsers"/>
+          <include name="testGETSingleUserWithValidation"/>
         </methods>
-      </class> <!-- com.RestAPINonBDD.JsonValidationTest -->
+      </class> <!-- com.RestAPINonBDD.SecondAPITestWithValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
