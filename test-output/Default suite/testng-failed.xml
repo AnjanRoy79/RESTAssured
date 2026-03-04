@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.TelecomProject.UserApiTest">
+      <class name="com.RestAPINonBDD.JsonValidationTest">
         <methods>
-          <include name="testUpdateUser"/>
-          <include name="testGetUserProfile"/>
-          <include name="setup"/>
-          <include name="testAddNewUser"/>
+          <include name="testJsonBody"/>
+          <include name="testListOfUsers"/>
         </methods>
-      </class> <!-- com.TelecomProject.UserApiTest -->
+      </class> <!-- com.RestAPINonBDD.JsonValidationTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

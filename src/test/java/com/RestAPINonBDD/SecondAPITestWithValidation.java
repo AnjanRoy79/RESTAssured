@@ -12,7 +12,7 @@ public class SecondAPITestWithValidation {
   {
 	  Response res=RestAssured.get("https://reqres.in/api/users/2");
 	  
-	  int expstatuscode=200;
+	  int expstatuscode=403;
 	  int actstatuscode=res.getStatusCode();
 	  
 	  Assert.assertEquals(actstatuscode,expstatuscode,"Status code not matched!");
